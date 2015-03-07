@@ -1,6 +1,4 @@
 [![Build Status](https://travis-ci.org/nanoc/nanoc-git.png)](https://travis-ci.org/nanoc/nanoc-git)
-[![Code Climate](https://codeclimate.com/github/nanoc/nanoc-git.png)](https://codeclimate.com/github/nanoc/nanoc-git)
-[![Coverage Status](https://coveralls.io/repos/nanoc/nanoc-git/badge.png?branch=master)](https://coveralls.io/r/nanoc/nanoc-git)
 
 # nanoc-git
 
