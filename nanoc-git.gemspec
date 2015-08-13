@@ -8,13 +8,13 @@ Gem::Specification.new do |s|
   s.version     = Nanoc::Git::VERSION
   s.homepage    = 'http://nanoc.ws/'
   s.summary     = 'Git deployer for nanoc'
-  s.description = 'Provides a git depoyer for nanoc'
+  s.description = 'Provides a Git deployer for nanoc'
 
   s.author  = 'Lifepillar'
   s.email   = 'github@lifepillar.org'
   s.license = 'MIT'
 
-  s.required_ruby_version = '>= 1.9.3'
+  s.required_ruby_version = '>= 2.2.0'
 
   s.files              = Dir['[A-Z]*'] +
                          Dir['{lib,test}/**/*'] +
@@ -24,6 +24,6 @@ Gem::Specification.new do |s|
   s.rdoc_options     = [ '--main', 'README.md' ]
   s.extra_rdoc_files = [ 'LICENSE', 'README.md', 'NEWS.md' ]
 
-  s.add_runtime_dependency('nanoc', '>= 3.7.0', '< 4.0.0')
-  s.add_development_dependency('bundler', '~> 1.5')
+  #s.add_runtime_dependency('nanoc', '>= 4.0.0', '< 5.0.0')
+  s.add_development_dependency('bundler', '~> 1.10')
 end
