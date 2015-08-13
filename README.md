@@ -6,6 +6,10 @@ This provides a Git deployer for [nanoc](http://nanoc.ws).
 
 Maintained by [lifepillar](https://github.com/lifepillar).
 
+## Compatibility
+
+Nanoc 4.0.0 or later.
+
 ## Installation
 
 `gem install nanoc-git`
