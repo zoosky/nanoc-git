@@ -74,7 +74,7 @@ git init
 git config --get remote.origin.url
 git checkout master
 git add -A
-git commit -am Automated commit at .+ by nanoc \\d+\\.\\d+\\.\\d+
+git commit -am Automated commit at .+ by nanoc \\d+\\.\\d+\\.\\d+\\w*
 git push origin master
 EOS
 
@@ -142,7 +142,7 @@ git init
 git config --get remote.github.url
 git checkout gh-pages
 git add -A
-git commit -am Automated commit at .+ by nanoc \\d+\\.\\d+\\.\\d+
+git commit -am Automated commit at .+ by nanoc \\d+\\.\\d+\\.\\d+\\w*
 git push -f github gh-pages
 EOS
 
@@ -176,7 +176,7 @@ EOS
 git config --get remote.origin.url
 git checkout master
 git add -A
-git commit -am Automated commit at .+ by nanoc \\d+\\.\\d+\\.\\d+
+git commit -am Automated commit at .+ by nanoc \\d+\\.\\d+\\.\\d+\\w*
 git push origin master
 EOS
 
@@ -210,7 +210,7 @@ EOS
 git init
 git checkout master
 git add -A
-git commit -am Automated commit at .+ by nanoc \\d+\\.\\d+\\.\\d+
+git commit -am Automated commit at .+ by nanoc \\d+\\.\\d+\\.\\d+\\w*
 git push git@github.com:myself/myproject.git master
 EOS
 
@@ -244,7 +244,7 @@ EOS
 git init
 git checkout master
 git add -A
-git commit -am Automated commit at .+ by nanoc \\d+\\.\\d+\\.\\d+
+git commit -am Automated commit at .+ by nanoc \\d+\\.\\d+\\.\\d+\\w*
 git push https://github.com/nanoc/nanoc.git master
 EOS
 
