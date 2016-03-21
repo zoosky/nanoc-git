@@ -16,7 +16,14 @@ Nanoc 4.0.0 or later.
 
 ## Usage
 
-Example configuration for the Git deployer:
+Require the gem by putting the following line in `lib/default.rb`:
+
+```ruby
+require 'nanoc-git'
+```
+
+Configure the gem by editing `nanoc.yaml`. Example configuration for the Git
+deployer:
 
 ```yaml
 deploy:
@@ -29,7 +36,7 @@ deploy:
 
 The following configuration options are available:
 
-* `remote` (default `origin`): the Git remote to deploy to
-* `branch` (default `master`): the Git branch to deploy
-* `forced` (default `false`): Whether or not to push with `--force`
+* `remote` (defaults to `origin`): the Git remote to deploy to
+* `branch` (defaults to `master`): the Git branch to deploy to
+* `forced` (defaults to `false`): Whether or not to push with `--force`
 
