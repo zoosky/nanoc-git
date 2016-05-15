@@ -40,3 +40,7 @@ The following configuration options are available:
 * `branch` (defaults to `master`): the Git branch to deploy to
 * `forced` (defaults to `false`): Whether or not to push with `--force`
 
+Use env variables
+
+`GUTHUB-USER`
+`GITHUB-DEPLOY`
